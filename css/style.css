@@ -1,0 +1,132 @@
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family:"Sheep Sans Bold";
+	src:url("../fonts/sheepsansbold.eot?") format("eot"),
+	url("../fonts/sheepsansbold.woff") format("woff"),
+	url("../fonts/sheepsansbold.ttf") format("truetype"),
+	url("../fonts/sheepsansbold.svg#SheepSansBold") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:"Sheep Sans";
+	src:url("../fonts/sheep_sans.eot?") format("eot"),
+	url("../fonts/sheep_sans.woff") format("woff"),
+	url("../fonts/sheep_sans.ttf") format("truetype"),
+	url("../fonts/sheep_sans.svg#SheepSans") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+h1 {
+	margin-top: 0.9em;
+}
+
+h1, h2, h3, h4, p {
+	font-family: "Sheep Sans Bold";
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.6em;
+	font-family: "Sheep Sans";
+}
+
+.img {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.img-icon {
+	max-width: 150px;
+}
+
+.img-feature {
+	max-width: 200px;
+}
+
+.img-feature-landscape {
+	max-width: 100%;
+}
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.intro {
+	padding-top: 2em;
+}
+
+/* Full Page Image Header Area */
+
+.appstore {
+	margin-top: 2em;
+	width: 200px;
+}
+
+.row-padding {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.row-last {
+	padding-top: 2em;
+	padding-bottom: 5em;
+}
+
+.copy {
+	color: #999;
+}
+
+.header {
+  color: #FFF;
+  display: table;
+  width: 100%;
+  position: 0;
+  background: url(../img/auckland.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.blue {
+	background-color: #e6f1fb;
+	width: 100%;
+	padding: 30px;
+}
+
+.callout {
+  color: #ffffff;
+  display: table;
+  height: 100%;
+  width: 100%;
+  background: url(../img/2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1 {
+	font-size: 5em;
+	color: #444;
+	color: #fff;
+}
+
+.center {
+	text-align: center;
+}
